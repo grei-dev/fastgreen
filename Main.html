@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FastGreen Cargo Forwarding - Reliable and efficient cargo forwarding solutions across the Philippines">
+    <title>FastGreen Cargo Forwarding</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navigation" aria-label="Main navigation">
+    <img src="FGLOGO.png" class="logo" alt="FastGreen Cargo Forwarding Logo">
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<header id="home" class="banner">
+    <div class="banner-content">
+        <h1>
+            <span class="h1">FAST</span>
+            <span class="h2">GREEN</span>
+        </h1>
+        <p class="tagline">"We Deliver More Than Cargo — We Deliver Trust."</p>
+        <a href="#contact" class="cta-button">Contact Us</a>
+    </div>
+</header>
+
+<main>
+    <section id="about" class="about-section">
+        <div class="company-background">
+            <h2>Company Background</h2>
+            <p>
+                Founded in 2018, FastGreen Cargo Forwarding has been delivering fast, reliable, and transparent logistics solutions to businesses across the Philippines. Known for efficient operations, accurate documentation, responsive customer support, and real-time updates, the company has earned the trust of its growing client base. As one of the early logistics partners of Aice in the Philippines, FastGreen has continually expanded its services and now operates as a corporation. Guided by its commitment to innovation, speed, and sustainability, FastGreen remains dedicated to providing logistics solutions that are faster and greener than ever. 
+            </p>
+        </div>
+
+        <div class="vm-cards">
+            <article class="vm-card">
+                <img src="VCARGO.png" class="vm-image" alt="">
+                <h3>Vision</h3>
+                <p>
+                    To be the leading cargo forwarding company in the region,
+                    recognized for our commitment to excellence and customer satisfaction.
+                </p>
+            </article>
+
+            <article class="vm-card">
+                <img src="MCARGO.jpg" class="vm-image" alt="">
+                <h3>Mission</h3>
+                <p>
+                    To provide reliable, efficient, and innovative cargo forwarding solutions
+                    that exceed our customers' expectations.
+                </p>
+            </article>
+        </div>
+
+        <div class="client-partners">
+            <h2>Client Partners</h2>
+            <ul class="client-list">
+                <li class="client-card">
+                    <img src="maersk.png" class="client-logo" alt="Maersk">
+                    <span>Maersk</span>
+                </li>
+                <li class="client-card">
+                    <img src="Jollibee.png" class="client-logo" alt="Jollibee">
+                    <span>Jollibee</span>
+                </li>
+                <li class="client-card">
+                    <img src="BIGE.jpg" class="client-logo" alt="Gordon Ramsay">
+                    <span>Big E</span>
+                </li>
+                <li class="client-card">
+                    <img src="LANDERS.jpg" class="client-logo" alt="Michael Jackson">
+                    <span>Landers</span>
+                </li>
+                <li class="client-card">
+                    <img src="SR.jpg" class="client-logo" alt="Michael Jackson">
+                    <span>S&R</span>
+                </li>
+                <li class="client-card">
+                    <img src="CONSISTENT.jpg" class="client-logo" alt="Michael Jackson">
+                    <span>CONSISTENT</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <div class="coverage-container">
+            <h2>Coverage Area</h2>
+            <div class="coverage-boxes">
+                <div class="coverage-item">Luzon</div>
+                <div class="coverage-item">Visayas</div>
+                <div class="coverage-item">Mindanao</div>
+            </div>
+        </div>
+
+        <div class="fleet-container">
+            <h2>Fleet & Equipment</h2>
+            
+            <div class="carousel">
+                <div class="viewport">
+                    <div class="track" id="track" role="region" aria-label="Fleet carousel" aria-live="polite">
+                        <article class="card active">
+                            <div class="card-inner">
+                                <img src="truck1.jpg" alt="Fleet One - Primary logistics equipment">
+                                <div class="card-content">
+                                    <h3>In Progress </h3>
+                                    <p>Primary logistics equipment.</p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card">
+                            <div class="card-inner">
+                                <img src="truck2.jpg" alt="Fleet Two - Container transport solutions">
+                                <div class="card-content">
+                                    <h3>In Progress</h3>
+                                    <p>Container transport solutions.</p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="card">
+                            <div class="card-inner">
+                                <img src="truck3.jpg" alt="Fleet Three - Heavy freight transport">
+                                <div class="card-content">
+                                    <h3>In Progress</h3>
+                                    <p>Heavy freight transport.</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="carousel-controls">
+                    <button class="carousel-btn prev-btn" onclick="prevSlide()" aria-label="Previous slide">
+                        <span aria-hidden="true">Prev</span>
+                    </button>
+                    <button class="carousel-btn next-btn" onclick="nextSlide()" aria-label="Next slide">
+                        <span aria-hidden="true">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="contact-column">
+            <h2>Addresses</h2>
+            <ul class="contact-list">
+                <li>FEMII Building 3rd flr Room 320 Soriano Ave, Intramuros, Manila, 1002 Metro Manila </li>
+                <li>Purok 5 Barangay Lawa Calamba City Laguna</li>
+            </ul>
+        </div>
+
+        <div class="contact-column">
+            <h2>Phone Numbers</h2>
+            <ul class="contact-list">
+                <li><a href="tel:+639455670386">+63 945-567-0386</a></li>
+            </ul>
+        </div>
+
+        <div class="contact-column">
+            <h2>Platforms</h2>
+            <ul class="contact-list">
+                <li><a href="https://www.facebook.com/makime05" target="_blank" rel="noopener noreferrer" aria-label="See our facebook page!">Facebook</a></li>
+                <li><a href="#" aria-label="Contact our service on Viber!">Viber</a></li>
+            </ul>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <p>&copy; 2026 FastGreen Cargo Forwarding. All rights reserved.</p>
+    <p>admin.fastgreen@gmail.com | csr.fastgreenforwarding@gmail.com</p>
+</footer>
+
+<script>
+let currentIndex = 0;
+const track = document.getElementById("track");
+const cards = document.querySelectorAll(".card");
+
+function updateCarousel() {
+    cards.forEach((card, index) => {
+        card.classList.remove("active");
+        if (index === currentIndex) {
+            card.classList.add("active");
+        }
+    });
+
+    const cardWidth = cards[0].offsetWidth + 30;
+    const offset = (track.offsetWidth / 2) - (cardWidth / 2) - (currentIndex * cardWidth);
+    track.style.transform = `translateX(${offset}px)`;
+}
+
+function nextSlide() {
+    currentIndex = (currentIndex + 1) % cards.length;
+    updateCarousel();
+}
+
+function prevSlide() {
+    currentIndex = (currentIndex - 1 + cards.length) % cards.length;
+    updateCarousel();
+}
+
+window.addEventListener("resize", updateCarousel);
+updateCarousel();
+</script>
+
+</body>
+</html>
